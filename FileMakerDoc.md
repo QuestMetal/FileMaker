@@ -92,6 +92,9 @@ To setup locations for inventory
 
 Ship To location determines which location the received products will go. Ship To location cna only be changed in the PO status is open.
 
+#Q Orders#
+###Changing Shop###
+Changing the shop can only be done if not material has be pulled from inventory. If you have material on the order, set the quantities to 0 then update inventory. You will then be able to change the shop.
 
 #Reports#
 ##Shop Time Report##
