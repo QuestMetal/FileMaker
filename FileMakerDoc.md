@@ -114,4 +114,12 @@ The troi file plugin for FileMaker is required to be able to generate the report
 10.	Open Microsoft Excel 
 11.	In Microsoft Excel open the file you saved in step 9.
 
+#Push Changes To Git#
+git repository git://git.com/QuestMetal/FileMaker
+
+
+1. git add .
+2. git commit -m "message"
+3. git push
+
 
