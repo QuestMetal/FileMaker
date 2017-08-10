@@ -1,10 +1,12 @@
 #File Maker Documentation#
 
-Q Orders<br>
-Inventory<br>
-Purchase Orders
+[Q Orders](#qorders)<br>
+[Inventory](#inventory)<br>
+[Purchase Orders](#purchase-orders)<br>
+[Reports](#reports)<br/>
+[Time Cards](#time-cards)
 
-# Time Cards #
+#<a name="time-cards"></a> Time Cards #
 ## Time Card Printing ##
 Time cards need to be created for the next week each Thursday. There are two different cards, (one for each shop, distinguished by MA or CU at the top of the card).
 
@@ -30,7 +32,7 @@ NOTE: cards are printed in order by employee last name
 11.	Go back to your computer and click OK
 12.	Repeat steps 6 through 10 for the CU shop
 
-# Inventory #
+#<a name="inventory"></a> Inventory #
 ##Category##
 Categories are managed in the preferences are from the main menu.
 
@@ -88,36 +90,63 @@ To setup locations for inventory
 3. Enter a new location on the last line
 4. Select which shop this location is for
 
-#Purchase Orders#
+#<a name="purchase-orders"></a>Purchase Orders#
 
 Ship To location determines which location the received products will go. Ship To location cna only be changed in the PO status is open.
 
-#Q Orders#
+#<a name="qorders"></a>Q Orders#
 ###Changing Shop###
 Changing the shop can only be done if not material has be pulled from inventory. If you have material on the order, set the quantities to 0 then update inventory. You will then be able to change the shop.
 
-#Reports#
+#<a name="reports"></a>Reports#
 ##Shop Time Report##
 This report consists of two parts, a FileMaker printed report and an excel report (generated as a .xml file)
 Shop time is defined as time that has a shop code on it. It does not include supervision see supervision report.
 The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.
 
 1. Main Menu click Reports
-2.	Click on the binder tab 
+2.	Click on the Binder tab 
 3.	Click on the Shop Time Report
-4.	Enter/Select a start date
+4.	Enter/Select a Start date
 5.	Enter/Select an End date
 6.	Click Continue
 7.	Click Continue
 8.	Click Print
-9.	Select where to save the file and the filename
+9.	Select where to save the file and the file name
 10.	Open Microsoft Excel 
 11.	In Microsoft Excel open the file you saved in step 9.
 
-#Push Changes To Git#
-git repository git://git.com/QuestMetal/FileMaker
+##Loss/Gain Report##
+This report is entirely excel based. It has 3 worksheets, Loss/Gain Summary, Loss/Gain Summary by Employee , and Loss/Gain.
+
+Loss Gain Summary is an overall loss gain summary no details in this section.
+Loss Gain Summary by Employee is a summary of Loss / Gain by employee broken down by month for the fiscal year ( based on report dates )
+Loss/Gain is the detail section listing all the Loss/Gain orders, credit notes and adjustments separated by sales person.
+
+The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.
+
+1. Main Menu click Reports
+2.	Click on the Binder tab 
+3.	Loss Gain Report
+4.	Enter/Select a Start date
+5.	Enter/Select an End date
+6.	Click Continue
+7.	Select where to save the file and the file name
+8.	Open Microsoft Excel 
+9.	In Microsoft Excel open the file you saved in step 7.
+ 
+#Git#
+git repository git://github.com/QuestMetal/FileMaker
+
+##New Checkout##
+To get an new check out:
+
+1. go to directory
+2. git init
+3. git clone git://github.com/QuestMetal/FileMaker
 
 
+##Update Repository##
 1. git add .
 2. git commit -m "message"
 3. git push

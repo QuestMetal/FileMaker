@@ -292,10 +292,12 @@ img {
 </head>
 <body>
 <h1>File Maker Documentation</h1>
-<p>Q Orders<br>
-Inventory<br>
-Purchase Orders</p>
-<h1>Time Cards</h1>
+<p><a href="#qorders">Q Orders</a><br>
+<a href="#inventory">Inventory</a><br>
+<a href="#purchase-orders">Purchase Orders</a><br>
+<a href="#reports">Reports</a><br/>
+<a href="#time-cards">Time Cards</a></p>
+<h1><a name="time-cards"></a> Time Cards</h1>
 <h2>Time Card Printing</h2>
 <p>Time cards need to be created for the next week each Thursday. There are two different cards, (one for each shop, distinguished by MA or CU at the top of the card).</p>
 <p>This will print a time card for each active employee in the system.</p>
@@ -318,7 +320,7 @@ NOTE: cards are printed in order by employee last name</li>
 <li>Go back to your computer and click OK</li>
 <li>Repeat steps 6 through 10 for the CU shop</li>
 </ol>
-<h1>Inventory</h1>
+<h1><a name="inventory"></a> Inventory</h1>
 <h2>Category</h2>
 <p>Categories are managed in the preferences are from the main menu.</p>
 <ol>
@@ -373,31 +375,56 @@ Removing the costed status will remove the made quantity from inventory.</p>
 2. Click Inventory
 3. Enter a new location on the last line
 4. Select which shop this location is for</p>
-<h1>Purchase Orders</h1>
+<h1><a name="purchase-orders"></a>Purchase Orders</h1>
 <p>Ship To location determines which location the received products will go. Ship To location cna only be changed in the PO status is open.</p>
-<h1>Q Orders</h1>
+<h1><a name="qorders"></a>Q Orders</h1>
 <h3>Changing Shop</h3>
 <p>Changing the shop can only be done if not material has be pulled from inventory. If you have material on the order, set the quantities to 0 then update inventory. You will then be able to change the shop.</p>
-<h1>Reports</h1>
+<h1><a name="reports"></a>Reports</h1>
 <h2>Shop Time Report</h2>
 <p>This report consists of two parts, a FileMaker printed report and an excel report (generated as a .xml file)
 Shop time is defined as time that has a shop code on it. It does not include supervision see supervision report.
 The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.</p>
 <ol>
 <li>Main Menu click Reports</li>
-<li>Click on the binder tab </li>
+<li>Click on the Binder tab </li>
 <li>Click on the Shop Time Report</li>
-<li>Enter/Select a start date</li>
+<li>Enter/Select a Start date</li>
 <li>Enter/Select an End date</li>
 <li>Click Continue</li>
 <li>Click Continue</li>
 <li>Click Print</li>
-<li>Select where to save the file and the filename</li>
+<li>Select where to save the file and the file name</li>
 <li>Open Microsoft Excel </li>
 <li>In Microsoft Excel open the file you saved in step 9.</li>
 </ol>
-<h1>Push Changes To Git</h1>
-<p>git repository git://git.com/QuestMetal/FileMaker</p>
+<h2>Loss/Gain Report</h2>
+<p>This report is entirely excel based. It has 3 worksheets, Loss/Gain Summary, Loss/Gain Summary by Employee , and Loss/Gain.</p>
+<p>Loss Gain Summary is an overall loss gain summary no details in this section.
+Loss Gain Summary by Employee is a summary of Loss / Gain by employee broken down by month for the fiscal year ( based on report dates )
+Loss/Gain is the detail section listing all the Loss/Gain orders, credit notes and adjustments separated by sales person.</p>
+<p>The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.</p>
+<ol>
+<li>Main Menu click Reports</li>
+<li>Click on the Binder tab </li>
+<li>Loss Gain Report</li>
+<li>Enter/Select a Start date</li>
+<li>Enter/Select an End date</li>
+<li>Click Continue</li>
+<li>Select where to save the file and the file name</li>
+<li>Open Microsoft Excel </li>
+<li>In Microsoft Excel open the file you saved in step 7.</li>
+</ol>
+<h1>Git</h1>
+<p>git repository git://github.com/QuestMetal/FileMaker</p>
+<h2>New Checkout</h2>
+<p>To get an new check out:</p>
+<ol>
+<li>go to directory</li>
+<li>git init</li>
+<li>git clone git://github.com/QuestMetal/FileMaker</li>
+</ol>
+<h2>Update Repository</h2>
 <ol>
 <li>git add .</li>
 <li>git commit -m &quot;message&quot;</li>
