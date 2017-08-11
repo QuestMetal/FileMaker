@@ -403,7 +403,7 @@ The troi file plugin for FileMaker is required to be able to generate the report
 <p>Loss Gain Summary is an overall loss gain summary no details in this section.
 Loss Gain Summary by Employee is a summary of Loss / Gain by employee broken down by month for the fiscal year ( based on report dates )
 Loss/Gain is the detail section listing all the Loss/Gain orders, credit notes and adjustments separated by sales person.</p>
-<p>The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.</p>
+<p>The troi file plugin for FileMaker is required to be able to generate the report. The script will check for and if need be will install it automatically.</p>
 <ol>
 <li>Main Menu click Reports</li>
 <li>Click on the Binder tab </li>
@@ -414,6 +414,18 @@ Loss/Gain is the detail section listing all the Loss/Gain orders, credit notes a
 <li>Select where to save the file and the file name</li>
 <li>Open Microsoft Excel </li>
 <li>In Microsoft Excel open the file you saved in step 7.</li>
+</ol>
+<h2>Shop Payroll Worksheet</h2>
+<p>This report shows the hours worked for each person in the shop for the last two weeks from the date selected. Hours are broken down by employee, week number, and position.</p>
+<ol>
+<li>Main Menu click Reports</li>
+<li>Click Weekly tab</li>
+<li>Click Shop Payroll Worksheet</li>
+<li>Enter / Select the last day for the payroll ( should be a Friday )</li>
+<li>Click Continue</li>
+<li>Click Continue</li>
+<li>Select desired print options</li>
+<li>Click Print</li>
 </ol>
 <h1>Git</h1>
 <p>git repository git://github.com/QuestMetal/FileMaker</p>
@@ -430,6 +442,14 @@ Loss/Gain is the detail section listing all the Loss/Gain orders, credit notes a
 <li>git commit -m &quot;message&quot;</li>
 <li>git push</li>
 </ol>
+<h2>Update Local Repository</h2>
+<ol>
+<li>command prompt in the documentation directory ( C:\inetpub\wwwroot\FielMakerDocs\FileMaker )</li>
+<li>git pull</li>
+</ol>
+<p>Documentation Location
+<a href="http://172.16.42.86:889/FIlemakerDocs/FileMaker/FileMakerDoc.html">http://172.16.42.86:889/FIlemakerDocs/FileMaker/FileMakerDoc.html</a>
+Be sure to click the browsers refresh button to get the latest updates</p>
 
 </body>
 </html>
