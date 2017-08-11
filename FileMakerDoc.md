@@ -123,7 +123,7 @@ Loss Gain Summary is an overall loss gain summary no details in this section.
 Loss Gain Summary by Employee is a summary of Loss / Gain by employee broken down by month for the fiscal year ( based on report dates )
 Loss/Gain is the detail section listing all the Loss/Gain orders, credit notes and adjustments separated by sales person.
 
-The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.
+The troi file plugin for FileMaker is required to be able to generate the report. The script will check for and if need be will install it automatically.
 
 1. Main Menu click Reports
 2.	Click on the Binder tab 
@@ -134,7 +134,21 @@ The troi file plugin for FileMaker is required to be able to generate the report
 7.	Select where to save the file and the file name
 8.	Open Microsoft Excel 
 9.	In Microsoft Excel open the file you saved in step 7.
- 
+
+##Shop Payroll Worksheet##
+This report shows the hours worked for each person in the shop for the last two weeks from the date selected. Hours are broken down by employee, week number, and position.
+
+
+1. Main Menu click Reports
+2. Click Weekly tab
+3. Click Shop Payroll Worksheet
+4. Enter / Select the last day for the payroll ( should be a Friday )
+5. Click Continue
+6. Click Continue
+7. Select desired print options
+8. Click Print
+
+  
 #Git#
 git repository git://github.com/QuestMetal/FileMaker
 
@@ -150,5 +164,13 @@ To get an new check out:
 1. git add .
 2. git commit -m "message"
 3. git push
+
+##Update Local Repository
+1. command prompt in the documentation directory ( C:\inetpub\wwwroot\FielMakerDocs\FileMaker )
+1. git pull
+
+Documentation Location
+[http://172.16.42.86:889/FIlemakerDocs/FileMaker/FileMakerDoc.html](http://172.16.42.86:889/FIlemakerDocs/FileMaker/FileMakerDoc.html)
+Be sure to click the browsers refresh button to get the latest updates
 
 
