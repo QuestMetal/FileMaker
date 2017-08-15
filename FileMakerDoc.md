@@ -92,7 +92,9 @@ To setup locations for inventory
 
 #<a name="purchase-orders"></a>Purchase Orders#
 
-Ship To location determines which location the received products will go. Ship To location cna only be changed in the PO status is open.
+Ship To location determines which location the received products will go. Ship To location can only be changed in the PO status is open.
+
+Click the green triangle to right of the ship to information to go to ship to location. Things like address and email address can be changed here.
 
 #<a name="qorders"></a>Q Orders#
 ###Changing Shop###
@@ -105,7 +107,7 @@ Shop time is defined as time that has a shop code on it. It does not include sup
 The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.
 
 1. Main Menu click Reports
-2.	Click on the Binder tab 
+2.	Click on the Binder tab
 3.	Click on the Shop Time Report
 4.	Enter/Select a Start date
 5.	Enter/Select an End date
@@ -113,7 +115,7 @@ The troi file plugin for FileMaker is required to be able to generate the report
 7.	Click Continue
 8.	Click Print
 9.	Select where to save the file and the file name
-10.	Open Microsoft Excel 
+10.	Open Microsoft Excel
 11.	In Microsoft Excel open the file you saved in step 9.
 
 ##Loss/Gain Report##
@@ -126,13 +128,13 @@ Loss/Gain is the detail section listing all the Loss/Gain orders, credit notes a
 The troi file plugin for FileMaker is required to be able to generate the report. The script will check for and if need be will install it automatically.
 
 1. Main Menu click Reports
-2.	Click on the Binder tab 
+2.	Click on the Binder tab
 3.	Loss Gain Report
 4.	Enter/Select a Start date
 5.	Enter/Select an End date
 6.	Click Continue
 7.	Select where to save the file and the file name
-8.	Open Microsoft Excel 
+8.	Open Microsoft Excel
 9.	In Microsoft Excel open the file you saved in step 7.
 
 ##Shop Payroll Worksheet##
@@ -148,7 +150,7 @@ This report shows the hours worked for each person in the shop for the last two 
 7. Select desired print options
 8. Click Print
 
-  
+
 #Git#
 git repository git://github.com/QuestMetal/FileMaker
 
@@ -172,5 +174,3 @@ To get an new check out:
 Documentation Location
 [http://172.16.42.86:889/FIlemakerDocs/FileMaker/FileMakerDoc.html](http://172.16.42.86:889/FIlemakerDocs/FileMaker/FileMakerDoc.html)
 Be sure to click the browsers refresh button to get the latest updates
-
-
