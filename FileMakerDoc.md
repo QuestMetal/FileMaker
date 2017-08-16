@@ -101,7 +101,23 @@ Click the green triangle to right of the ship to information to go to ship to lo
 Changing the shop can only be done if not material has be pulled from inventory. If you have material on the order, set the quantities to 0 then update inventory. You will then be able to change the shop.
 
 #<a name="reports"></a>Reports#
-##Shop Time Report##
+
+##<a name="postingreport"></a>Posting Report##
+This report prints a list of all time card entries for the day and will post the entries. 
+
+Run this report everyday once timecards have been entered, compare this report to the timecards to ensure accurate entry.
+
+1. Main Menu click time card data
+2. Click Posting Report
+3. Change the date to be the date you just entered timecards for.
+4. Click Continue
+5. Click Continue
+6. Click Print
+7. You can now compare the report to actual timecards
+
+The report will warn you if you have not entered time for an active employee. If this is the case you will see an entry for that employee for Q# 100. You will need to adjust that entry to make it valid or delete it after entering a proper entry. Not doing so will bring up a red warning message on the main menu about rouge timesheets.  
+
+##<a name="shoptimereport"></a>Shop Time Report##
 This report consists of two parts, a FileMaker printed report and an excel report (generated as a .xml file)
 Shop time is defined as time that has a shop code on it. It does not include supervision see supervision report.
 The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.
@@ -118,7 +134,7 @@ The troi file plugin for FileMaker is required to be able to generate the report
 10.	Open Microsoft Excel
 11.	In Microsoft Excel open the file you saved in step 9.
 
-##Loss/Gain Report##
+##<a name="lossgainreport"></a>Loss/Gain Report##
 This report is entirely excel based. It has 3 worksheets, Loss/Gain Summary, Loss/Gain Summary by Employee , and Loss/Gain.
 
 Loss Gain Summary is an overall loss gain summary no details in this section.
@@ -137,7 +153,7 @@ The troi file plugin for FileMaker is required to be able to generate the report
 8.	Open Microsoft Excel
 9.	In Microsoft Excel open the file you saved in step 7.
 
-##Shop Payroll Worksheet##
+##<a name="shoppayrollworksheetreport"></a>Shop Payroll Worksheet##
 This report shows the hours worked for each person in the shop for the last two weeks from the date selected. Hours are broken down by employee, week number, and position.
 
 
@@ -150,7 +166,7 @@ This report shows the hours worked for each person in the shop for the last two 
 7. Select desired print options
 8. Click Print
 
-##Shop Payroll Export##
+##<a name="shoppayrollexportreport"></a>Shop Payroll Export##
 This report shows the hours worked for each person in the shop for the date range selected typically a two week period starting on a Friday ending on the Thursday. Hours are broken down by employee, position, and time factor for each day.
 
 The troi file plugin for FileMaker is required to be able to generate the report. The script will check for and if need be will install it automatically.
