@@ -150,6 +150,23 @@ This report shows the hours worked for each person in the shop for the last two 
 7. Select desired print options
 8. Click Print
 
+##Shop Payroll Export##
+This report shows the hours worked for each person in the shop for the date range selected typically a two week period starting on a Friday ending on the Thursday. Hours are broken down by employee, position, and time factor for each day.
+
+The troi file plugin for FileMaker is required to be able to generate the report. The script will check for and if need be will install it automatically.
+
+1. Main Menu click Reports
+2. Click Weekly tab
+3. Click Shop Payroll Export
+4. Enter / Select the start date ( should be a Friday )
+5. Enter / Select the end date ( should be a Thursday )
+6. Click Continue
+7. Select desired filename and location to save the file
+8. Click Save
+9. Click Done
+10. Open Microsoft Excel
+11. Open the file from step 7.
+
 
 #Git#
 git repository git://github.com/QuestMetal/FileMaker
