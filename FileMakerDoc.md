@@ -117,6 +117,22 @@ Run this report everyday once timecards have been entered, compare this report t
 
 The report will warn you if you have not entered time for an active employee. If this is the case you will see an entry for that employee for Q# 100. You will need to adjust that entry to make it valid or delete it after entering a proper entry. Not doing so will bring up a red warning message on the main menu about rouge timesheets.  
 
+##<a name="shopattendancereport"></a>Shop Attendance Report##
+This report shows you all the hours for each shop employee split by payroll week. It shows what the expected hours are for each week. The report also shows totals for regular hours, overtime hours, absent hours, vacation hours, and WCB hours.
+
+This report should be run at the end of every month but can be run more frequent to make error correction easier.
+
+Monthly hours is the total of working hours plus absent and vacation hours; it excludes over time. All employees should have the same total hours.
+
+At the end of the report there is a grand total of regular hours, overtime percentage (sum of non-adjusted overtime hours divided by grand total regular hours), absent percentage (sum of absent hours divided by grand total regular hours)
+
+1. Main Menu click Reports
+2. Click Shop Attendance Report
+3. Enter / Select the Start Date (typically first of the month)
+4. Enter / Select the End Date (typically last day of the month)
+5. Click Continue
+6. Click Print
+
 ##<a name="mnrreport"></a>Maintenance & Repair (M&R) Report##
 This report shows you the time spent on maintenance and repair, it consists of two parts a printed report from FileMaker and an excel export.
 
