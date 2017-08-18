@@ -136,6 +136,18 @@ The excel part consists of two sections, monthly averages and monthly totals. Th
 10.	Open Microsoft Excel
 11.	In Microsoft Excel open the file you saved in step 9.
 
+##<a name="stockreport"></a>Stock Report##
+This report shows all stock q orders that have been <b>loss and gained</b> during the selected date range.
+
+1. Main Menu click Reports
+2. Click on the Binder tab
+3. Click Stock Report
+4. Enter/Select a Start date
+5. Enter/Select an End date
+6. Click Continue
+7. Click Continue
+8. Click Print
+
 ##<a name="shoptimereport"></a>Shop Time Report##
 This report consists of two parts, a FileMaker printed report and an excel report (generated as a .xml file)
 Shop time is defined as time that has a shop code on it. It does not include supervision see supervision report.
