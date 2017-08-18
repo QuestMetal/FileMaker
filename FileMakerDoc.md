@@ -117,6 +117,25 @@ Run this report everyday once timecards have been entered, compare this report t
 
 The report will warn you if you have not entered time for an active employee. If this is the case you will see an entry for that employee for Q# 100. You will need to adjust that entry to make it valid or delete it after entering a proper entry. Not doing so will bring up a red warning message on the main menu about rouge timesheets.  
 
+##<a name="mnrreport"></a>Maintenance & Repair (M&R) Report##
+This report shows you the time spent on maintenance and repair, it consists of two parts a printed report from filemaker and an excel export.
+
+The FileMaker part shows M&R time summarized by payroll week number, employee, and time factor (reg, 1.5).
+
+The excel part consists of two sections, monthly averages and monthly totals. The monthly averages show the monthly average of M&R time for the past 10 years. The monthly totals section shows the total M&R for each month in the current fiscal year.
+
+1. Main Menu click Reports
+2. Click on the Binder tab
+3. Click M&R Report
+4. Enter/Select a Start date
+5. Enter/Select an End date
+6. Click Continue
+7. Click Continue
+8. Click Print
+9. 	Select where to save the file and the file name
+10.	Open Microsoft Excel
+11.	In Microsoft Excel open the file you saved in step 9.
+
 ##<a name="shoptimereport"></a>Shop Time Report##
 This report consists of two parts, a FileMaker printed report and an excel report (generated as a .xml file)
 Shop time is defined as time that has a shop code on it. It does not include supervision see supervision report.
