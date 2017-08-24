@@ -152,6 +152,25 @@ The excel part consists of two sections, monthly averages and monthly totals. Th
 10.	Open Microsoft Excel
 11.	In Microsoft Excel open the file you saved in step 9.
 
+
+##<a name="salesreport"></a>Sales Report##
+This report shows invoiced Q orders for the selected time period. It show total for each order and which sales person the order is for. The report also includes Sales Summary by Salesperson tab which shows total sales by sales person by month of the fiscal year. This report only generates an Excel workbook.
+
+The report does not include record only orders (R/O).
+
+The troi file plugin for FileMaker is required to be able to generate the report. See plugin installation.
+
+1. Main Menu click Reports
+2. Click on the Binder tab
+3. Click Sales Report
+4. Enter/Select a Start date
+5. Enter/Select an End date
+6. Click Continue
+7. Select where to save the file and the file name
+8. Open Microsoft Excel
+9. In Microsoft Excel open the file you saved in step 7.
+
+
 ##<a name="supervisionreport"></a>Supervision Report##
 This report shows you the time spent on supervision, it consists of two parts a printed report from FileMaker and an excel export.
 
