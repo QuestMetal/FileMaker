@@ -5,6 +5,7 @@
 [Purchase Orders](#purchase-orders)<br>
 [Reports](#reports)<br/>
 [Time Cards](#time-cards)
+[Charts](#charts)
 
 #<a name="time-cards"></a> Time Cards #
 ## Time Card Printing ##
@@ -267,6 +268,15 @@ The troi file plugin for FileMaker is required to be able to generate the report
 9. Click Done
 10. Open Microsoft Excel
 11. Open the file from step 7.
+
+
+#<a name="charts"></a>Charts#
+##<a name="resourcesaturation"></a>Resource Saturation#
+This chart shows the number of shop staff that worked for a given sales person for a given day for the last seven days. One shop person can work on multiple order throughout the day which means that they can count towards multiple sales people. A new record for the chart is created when the posting report for time cards is run.
+
+Data comes from time cards and Q Orders. Salesperson must be selected from the 
+
+Note: Fiscal shop orders are specifically not assigned to a salesperson on this chart.  
 
 
 #Git#
