@@ -4,7 +4,7 @@
 [Inventory](#inventory)<br>
 [Purchase Orders](#purchase-orders)<br>
 [Reports](#reports)<br/>
-[Time Cards](#time-cards)
+[Time Cards](#time-cards)<br/>
 [Charts](#charts)
 
 #<a name="time-cards"></a> Time Cards #
